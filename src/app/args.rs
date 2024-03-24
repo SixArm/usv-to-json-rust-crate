@@ -16,14 +16,6 @@ pub struct Args {
     /// Log level: 0=none, 1=error, 2=warn, 3=info, 4=debug, 5=trace.
     /// Example: 5 means print debug diagnostics.
     pub(crate) log_level: Option<::log::Level>,
-
-    /// Unit separator string.
-    /// Example: ","
-    pub(crate) unit_separator: String,
-
-    /// Record separator string.
-    /// Example: "\n"
-    pub(crate) record_separator: String,
 }
 
 impl Default for Args {
@@ -31,8 +23,6 @@ impl Default for Args {
         Args {
             test: false,
             log_level: None,
-            unit_separator: String::from(","),
-            record_separator: String::from("\n"),
         }
     }
 }

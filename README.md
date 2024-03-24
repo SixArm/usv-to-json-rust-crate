@@ -14,17 +14,7 @@ Example:
 cat example.usv | usv-to-json
 ```
 
-Example with output to a file:
-
-```sh
-cat example.usv | usv-to-json > example.json
-```
-
-Example with custom separators:
-
-```sh
-cat example.usv | usv-to-json --unit-separator ";" --record-separator "*"
-```
+More examples below.
 
 ## Options
 
@@ -72,6 +62,12 @@ Output:
 ]
 ```
 
+Example with output to a file:
+
+```sh
+cat example.usv | usv-to-json > example.json
+```
+
 ## FAQ
 
 ### When to use this command?
@@ -106,8 +102,8 @@ Constructive feedback welcome. Pull requests and feature requests welcome.
 ## Tracking
 
 * Package: usv-to-json-rust-crate
-* Version: 1.0.0
+* Version: 1.1.0
 * Created: 2024-03-09T13:33:20Z
-* Updated: 2024-03-17T19:53:43Z
+* Updated: 2024-03-24T22:16:06Z
 * License: MIT or Apache-2.0 or GPL-2.0 or GPL-3.0 or contact us for more
 * Contact: Joel Parker Henderson (joel@sixarm.com)
