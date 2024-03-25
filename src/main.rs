@@ -70,6 +70,16 @@
 //!
 //! ## FAQ
 //!
+//! ### What converters are available?
+//!
+//! * [asv-to-usv](https://crates.io/crates/asv-to-usv] & [usv-to-asv](https://crates.io/crates/usv-to-asv)
+//!
+//! * [csv-to-usv](https://crates.io/crates/asv-to-csv] & [usv-to-csv](https://crates.io/crates/usv-to-csv)
+//!
+//! * [json-to-usv](https://crates.io/crates/json-to-usv] & [usv-to-json](https://crates.io/crates/usv-to-json)
+//!
+//! * [xlsx-to-usv](https://crates.io/crates/xlsx-to-usv] & [usv-to-asv](https://crates.io/crates/usv-to-xlsx)
+//!
 //! ### When to use this command?
 //!
 //! Use this command when you want to convert from USV to JSON.
