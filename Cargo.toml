@@ -1,6 +1,6 @@
 [package]
 name = "usv-to-json"
-version = "1.1.1"
+version = "1.1.2"
 edition = "2021"
 authors = ["Joel Parker Henderson <joel@joelparkerhenderson.com>"]
 description = "USV to JSON: Convert Unicode Separated Values (USV) to JavaScript Object Notation (JSON) for data markup, including for spreadsheets, databases, text files, and more."
@@ -21,7 +21,7 @@ serde = "1"
 serde_json = "1"
 
 # usv: Unicode Separated Values
-usv = "0.15"
+usv = "0.17.1"
 
 # clap: Command Line Argument Parser
 clap = { version = "4.5.2", features = ["cargo"] }
