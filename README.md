@@ -1,6 +1,10 @@
 # usv-to-json
 
-Convert [Unicode Separated Values (USV)](https://github.com/sixarm/usv) to JavaScript Object Notation (JSON).
+Convert
+[Unicode Separated Values (USV)](https://github.com/sixarm/usv)
+to
+[JavaScript Object Notation (JSON)](https://github.com/SixArm/usv/tree/main/doc/comparisons/json).
+Built with the [USV Rust crate](https://crates.io/crate/usv).
 
 Syntax:
 
